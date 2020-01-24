@@ -295,6 +295,69 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 0}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: applePrefab
+      value: 
+      objectReference: {fileID: 1693808368421608, guid: c6c82af8f44152f40a854727dda65f19,
+        type: 2}
+    - target: {fileID: 1463915968376586, guid: b8d7b430006ddb6408100607b7108190, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1635413283635336, guid: b8d7b430006ddb6408100607b7108190, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1411408528111670, guid: b8d7b430006ddb6408100607b7108190, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8d7b430006ddb6408100607b7108190, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &2143300872 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1463915968376586, guid: b8d7b430006ddb6408100607b7108190,
+    type: 2}
+  m_PrefabInternal: {fileID: 1285616484}
+--- !u!54 &2143300873
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2143300872}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &2143300874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2143300872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f18ef28c017bf414baab5027d3555d27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applePrefab: {fileID: 1693808368421608, guid: c6c82af8f44152f40a854727dda65f19,
+    type: 2}
+  speed: 5
+  leftRightEdge: 14
+  directionChangeChance: 0.1
+  appleSpawnRate: 1
