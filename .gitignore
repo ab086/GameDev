@@ -147,3 +147,7 @@ Build/Android/res/*
 !Build/Android/res/*/
 Build/Android/res/*/*
 !Build/Android/res/*/*.png
+
+
+### Builds ###
+Builds/
